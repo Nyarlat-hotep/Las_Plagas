@@ -1,3 +1,75 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebebeb !important;
+}
+
+#container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+
+  .largeImg {
+    width: 100%;
+  }
+
+  .colorBlock {
+    height: auto;
+    padding: 10px 0 30px 20px;
+    background-color: rgb(48, 48, 48);
+
+    h2 {
+      color: deepskyblue;
+    }
+
+    #colorSpan {
+      color: #f7f7f7;
+    }
+
+    hr {
+      text-align: center;
+      position: relative;
+      z-index: 10;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .firstGroup {
   width: 100%;
   margin: 50px auto;
@@ -48,7 +120,7 @@
   }
 
   .ballContainer {
-    animation: rotate .5s 3 forwards;
+    animation: rotate 1s 1 forwards;
     animation-delay: 9.5s;
   }
 
@@ -143,16 +215,16 @@
   }
 }
 
-/*
+!*
 @keyframes move {
   100% {
     transform: rotateZ(-90deg);
   }
 }
-*/
+*!
 
 .shadow {
   width: 120px;
   height: 120px;
   background: #000000;
-}
+}*/
